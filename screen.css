@@ -1,4 +1,55 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background:#F4F3EC;
+
+}
+.logo{
+    margin:auto;
+    padding:20px;
+}
+.plan{
+    font-size:5em;
+    text-align: center;
+}
+.pp{
+    position:absolute;
+    top: 50px;
+    right: 0; 
+    width: 500px; 
+    text-align:right;
+    color: black;
+    font-size: 40px;
+}
+.task1{
+    p{
+        font-size: 50px;
+    }
+}
+.task2{
+    p{
+        font-size: 50px;
+    }
+}
+.task3{
+    p{
+        font-size: 50px;
+    }
+}
+
+.finding{
+    font-size:40px;
+
+}
+.op{
+
+    font-size: 30px;
+    margin:auto;
+}
+.goal{
+    font-size:40px
+
 }
